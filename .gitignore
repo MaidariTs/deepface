@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# files
+faces
+face_analyze.json
+result.json
+
 # Distribution / packaging
 .Python
 build/

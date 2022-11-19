@@ -38,7 +38,7 @@ def face_recogn():
 def face_analyze():
     try:
         result_dict = DeepFace.analyze(
-            img_path='faces/i.jpg',
+            img_path='faces/sasha.jpg',
             actions=['age', 'gender', 'race', 'emotion']
         )
         with open('face_analyze.json', 'w') as file:
